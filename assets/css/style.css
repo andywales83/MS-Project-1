@@ -5,47 +5,91 @@
 }
 
 body {
-    font-family: 'Lato' sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
     color: #4d4d4d;
 }
 
-.heading {
-    font-family: 'Poppins' sans-serif !important;
+.contact-form-heading,
+.testimonials-heading,
+.teachings-heading,
+.about-me-heading
+ {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 2rem;
+    color: #195361;
 }
 
 /* --------------- Navbar Styling --------------- */
 
-nav h1 {
+.page-logo {
     color: #195361;
+    font-size: 2.5em;
 }
 
+.nav{
+    font-size: 1.5em;
+}
 
 /* --------------- Hero Image Styling --------------- */
 
+.hero-image {
+    height: 800px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/guitar-man.jpg);
+    background-color: slategray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    clear: both;
+}
+
+/* added and amended the hero image textbox from W3Schools */
+.hero-image-text {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    border: 6px solid white;
+    text-align: center;
+    letter-spacing: 4px;
+}
 
 /* --------------- About Me Styling --------------- */
 
 /* --------------- What I Teach Styling --------------- */
 
+.instrument {
+    height: 250px;
+    width: 250px;
+}
+
 /* --------------- Testimonials Styling --------------- */
 
+#testimonials {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
 .student-image {
-    
     /* flex used to align image and quote content within the blockquote container */
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: justify;
     border: 1px solid red;
+    height: 500px;
 }
 
 .blockquote {
-    
     padding: 15px;
     margin: 30px;    
 }
 
+
 .rounded-circle {
+    /* styling for the circular images in the testimonials section */
     height: 200px;
     width: 200px;
     margin: 10px auto;    
