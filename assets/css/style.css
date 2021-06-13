@@ -17,6 +17,7 @@ body {
     font-family: 'Poppins', sans-serif !important;
     font-size: 2rem;
     color: #195361;
+    margin: 20px;
 }
 
 /* --------------- Navbar Styling --------------- */
@@ -33,8 +34,6 @@ body {
 /* --------------- Hero Image Styling --------------- */
 
 .hero-image {
-    height: 800px;
-    width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/guitar-man.jpg);
     background-color: slategray;
     background-repeat: no-repeat;
