@@ -85,62 +85,63 @@
 
             <!-- About Me section - for profile img and content -->
 
-            <section id="about-me">
+            <div class="container">
+                <section id="about-me">
 
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="about-me-heading text-uppercase">About Me</h2>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="c">
-                            <div class="image-background">
-                                <img src="./assets/images/profile-images/generic-profile-image.jpg" alt="">
-                            </div>
-                            <h3 class="tutor-name text-capitalize">Andrew Llewellyn</h3>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="about-me-heading text-uppercase">About Me</h2>
                         </div>
                     </div>
 
-                    <!-- content for the personal profile box to be displayed -->
-                    <div class="background-content col-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="row">
+                        <div class="image-container col-12 col-sm-12 col-md-12 col-lg-6">
+                            <img class="image-background" src="./assets/images/profile-images/generic-profile-image.jpg"
+                                alt="Image of Andrew Llewellyn - Guitar Tutor">
+                            <h3 class="tutor-name text-capitalize">Andrew Llewellyn</h3>
+                        </div>
 
-                        <p>Born in to a musical family, I have been a musician since the tender age of four years
-                            old.
-                        </p>
 
-                        <p>I am a multi-instrumentalist and a Graduate of Cardiff University School of Music
-                            where I studied and received a BA Hons in Music.</p>
+                        <!-- content for the personal profile box to be displayed -->
+                        <div class="background-content col-12 col-sm-12 col-md-12 col-lg-6">
 
-                        <p>Throughout my musical career, I have also achieved:</p>
+                            <p>Born in to a musical family, I have been a musician since the tender age of four years
+                                old.
+                            </p>
 
-                        <ul>
-                            <li>Diploma Of The London College Of Music - DipLCM in Teaching</li>
-                            <li>ABRSM - Practical Grade 8 in Saxophone</li>
-                            <li>RSL - Classical Piano Grade 8</li>
-                            <li>LCM - Performance Award in Drums</li>
-                        </ul>
+                            <p>I am a multi-instrumentalist and a Graduate of Cardiff University School of Music
+                                where I studied and received a BA Hons in Music.</p>
 
-                        <p>I have been teaching privately since 2005, and just a year later in 2006, I decided to open
-                            the
-                            RCT School of Music, where I am the tutor for all musical instruments. Before going into
-                            business for myself, I previously taught students at Tonypandy Community College
-                            (Peripatetic).
-                        </p>
+                            <p>Throughout my musical career, I have also achieved:</p>
 
-                        <p>I aim to provide tuition in a friendly and relaxed atmosphere, and utilise my experience in
-                            teaching both the RGT and Rockschool syllabus, to help you achieve excellent results in your
-                            exams, should you choose to take them</p>
+                            <ul>
+                                <li>Diploma Of The London College Of Music - DipLCM in Teaching</li>
+                                <li>ABRSM - Practical Grade 8 in Saxophone</li>
+                                <li>RSL - Classical Piano Grade 8</li>
+                                <li>LCM - Performance Award in Drums</li>
+                            </ul>
 
-                        <p>I am proud to note that all of my students to date, have to date enjoyed a 100% pass rate in
-                            ABRSM, RGT and Rockschool Exams</p>
+                            <p>I have been teaching privately since 2005, and just a year later in 2006, I decided to
+                                open
+                                the
+                                RCT School of Music, where I am the tutor for all musical instruments. Before going into
+                                business for myself, I previously taught students at Tonypandy Community College
+                                (Peripatetic).
+                            </p>
 
+                            <p>I aim to provide tuition in a friendly and relaxed atmosphere, and utilise my experience
+                                in
+                                teaching both the RGT and Rockschool syllabus, to help you achieve excellent results in
+                                your
+                                exams, should you choose to take them</p>
+
+                            <p>I am proud to note that all of my students to date, have to date enjoyed a 100% pass rate
+                                in
+                                ABRSM, RGT and Rockschool Exams</p>
+                        </div>
                     </div>
-                </div>
-
-            </section>
-
+                </section>
+            </div>
             <!-- End of About Me section -->
 
             <hr>
@@ -294,8 +295,59 @@
                 <div class="row">
                     <div class="col-12">
                         <h2 class="contact-form-heading text-uppercase">Contact Us</h2>
+                        <p>Contact me today, to see how I can help you achieve your musical goals!</p>
                     </div>
                 </div>
+
+                <form>
+                    <div class="mb-3">
+                        <label for="fname" class="form-label">First Name:</label>
+                        <input type="text" class="form-control" id="fname" aria-describedby="first name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="lname" class="form-label">Last Name:</label>
+                        <input type="text" class="form-control" id="lname" aria-describedby="last name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="telephone" class="form-label">Tel No:</label>
+                        <input type="number" class="form-control" id="telephone" aria-describedby="contact number">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email address">
+                    </div>
+
+                    <div class="instrument-checkbox-heading">
+                        <h3>What Instrument Would You Like To Learn?</h3>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="guitar" id="guitar" value="guitar">
+                        <label class="form-check-label" for="guitar">Guitar</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="drums" id="drums" value="drums">
+                        <label class="form-check-label" for="drums">Drums</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="piano" id="piano" value="piano">
+                        <label class="form-check-label" for="piano">Piano</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="saxophone" id="saxophone" value="saxophone">
+                        <label class="form-check-label" for="saxophone">Saxophone</label>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="additional-details" class="form-label">Please provide any additional details:</label>
+                        <textarea class="form-control" id="additional-details" rows="3"></textarea>
+                    </div>
+                    
+                    <div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>                  
+
+                </form>
 
             </section>
 

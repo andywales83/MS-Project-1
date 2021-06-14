@@ -54,11 +54,11 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     position: relative;
 }
 
@@ -91,8 +91,29 @@ body {
 /* --------------- About Me Styling --------------- */
 
 .image-container {
-    display: flex;
-    
+    height: 350px;
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #4d4d4d;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+
+.image-background {
+    height: 100%;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.tutor-name {
+    margin-bottom: 40px;
+}
+
+.background-content {
+    border: 1px solid #4d4d4d;
+    margin: 0px auto 40px auto;
+    padding: 20px;
 }
 
 /* --------------- What I Teach Styling --------------- */
