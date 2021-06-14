@@ -12,18 +12,24 @@ body {
 .contact-form-heading,
 .testimonials-heading,
 .teachings-heading,
-.about-me-heading
- {
+.about-me-heading {
     font-family: 'Poppins', sans-serif !important;
     font-size: 2rem;
     color: #195361;
     margin: 20px;
 }
 
+
 /* --------------- Navbar Styling --------------- */
 
+.navbar-brand {
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #195361 !important;
+}
 
-.nav{
+.nav {
     font-size: 1.5em;
     letter-spacing: 2px;
 }
@@ -38,14 +44,29 @@ body {
 
 /* --------------- Hero Image Styling --------------- */
 
-.hero-image {
-    height: 800px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/guitar-man.jpg);
-    background-color: slategray;
-    background-repeat: no-repeat;
+.hero-image-container {
+    height: 100vh;
+
+    background: url('../images/Guitar-hero-image.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     position: relative;
-    clear: both;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* added and amended the hero image textbox from W3Schools */
@@ -61,10 +82,25 @@ body {
     letter-spacing: 4px;
 }
 
+.hero-text-heading {
+    font-size: 3em;
+}
+
 /* --------------- About Me Styling --------------- */
+
+.teachings-heading {
+    text-align: center;
+    padding: 30px;
+    font-size: 3em;
+}
 
 /* --------------- What I Teach Styling --------------- */
 
+.about-me-heading {
+    text-align: center;
+    padding: 30px;
+    font-size: 3em;
+}
 .instrument {
     height: 250px;
     width: 250px;
@@ -89,7 +125,7 @@ body {
 
 .blockquote {
     padding: 15px;
-    margin: 30px;    
+    margin: 30px;
 }
 
 
@@ -97,7 +133,7 @@ body {
     /* styling for the circular images in the testimonials section */
     height: 200px;
     width: 200px;
-    margin: 10px auto;    
+    margin: 10px auto;
 }
 
 /* --------------- Contact Form Styling --------------- */
