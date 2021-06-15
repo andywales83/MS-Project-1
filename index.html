@@ -21,41 +21,44 @@
 
     <!-- Header section for page logo and navigation menu-->
 
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+    <div class="container-fluid">
+        <nav class="navbar navbar-light bg-light navbar-expand-md">
+            <!-- page logo -->
+            <a class="navbar-brand" href="index.html" title="home"
+                aria-label="This is the websites main logo. Click here to return to the homepage">
+                RCT School Of Music
+            </a>
 
-        <!-- page logo -->
-        <a class="navbar-brand" href="index.html" title="home"
-            aria-label="This is the websites main logo. Click here to return to the homepage">
-            RCT School Of Music
-        </a>
+            <!-- Nav toggler for small screen sizes -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
-            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <!-- navigation menu - used bootstraps ms-auto to place nav menu on the right. -->
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="nav navbar-nav ms-auto">
+                    <li class="nav-item mr-2">
+                        <a class="active nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#teachings">What I Teach</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#contact-form">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-        <!-- navigation menu - used bootstraps ms-auto to place nav menu on the right. -->
-
-        <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="nav navbar-nav ms-auto">
-                <li class="nav-item mr-2">
-                    <a class="active nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#about-me">About Me</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#teachings">What I Teach</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#testimonials">Testimonials</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#contact-form">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
     <!-- End of header section -->
 
@@ -77,7 +80,7 @@
 
     <!-- About Me section - for profile img and content -->
 
-    <div class="container-fluid">
+    <div class="cantainer container-fluid">
         <section id="about-me">
             <div class="row">
                 <div class="col-12">
@@ -154,8 +157,8 @@
 
             <div class="container container-fluid instrument-type-container">
                 <div class="row">
-                    <div class="col">
-                        <div class="instrument-type col col-sm-12 col-md-6 col-lg-6">
+                    <div class="col col-sm-12 col-md-12 col-lg-6">
+                        <div class="instrument-type">
                             <img class="instrument img-fluid" src="./assets/images/instrument-images/guitar.jpg"
                                 alt="image of an Acoustic Guitar">
                             <h3>Guitar - All Types</h3>
@@ -169,8 +172,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="instrument-type col col-sm-12 col-md-6 col-lg-6">
+                    <div class="col col-sm-12 col-md-6 col-lg-6">
+                        <div class="instrument-type">
                             <img class="instrument img-fluid" src="./assets/images/instrument-images/drums.jpg"
                                 alt="image of a set of Drums">
                             <h3>Drums</h3>
@@ -186,8 +189,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <div class="instrument-type col col-sm-12 col-md-6 col-lg-6">
+                    <div class="col col-sm-12 col-md-6 col-lg-6">
+                        <div class="instrument-type">
                             <img class="instrument img-fluid" src="./assets/images/instrument-images/piano.jpg"
                                 alt="image of a Piano">
                             <h3>Piano</h3>
@@ -201,8 +204,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="instrument-type col col-sm-12 col-md-6 col-lg-6">
+                    <div class="col col-sm-12 col-md-6 col-lg-6">
+                        <div class="instrument-type">
                             <img class="instrument img-fluid" src="./assets/images/instrument-images/saxophone.jpg"
                                 alt="image of a Saxophone">
                             <h3>Saxophone</h3>
