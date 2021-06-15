@@ -23,85 +23,82 @@
 
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
 
-        <div class="container-fluid">
-            <!-- page logo -->
-            <a class="navbar-brand" href="index.html" title="home"
-                aria-label="This is the websites main logo. Click here to return to the homepage">
-                RCT School Of Music
-            </a>
+        <!-- page logo -->
+        <a class="navbar-brand" href="index.html" title="home"
+            aria-label="This is the websites main logo. Click here to return to the homepage">
+            RCT School Of Music
+        </a>
 
-            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- navigation menu - used bootstraps ms-auto to place nav menu on the right. -->
+        <!-- navigation menu - used bootstraps ms-auto to place nav menu on the right. -->
 
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="nav navbar-nav ms-auto">
-                    <li class="nav-item mr-2">
-                        <a class="active nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a class="nav-link" href="#about-me">About Me</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a class="nav-link" href="#teachings">What I Teach</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a class="nav-link" href="#testimonials">Testimonials</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a class="nav-link" href="#contact-form">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="nav navbar-nav ms-auto">
+                <li class="nav-item mr-2">
+                    <a class="active nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="#teachings">What I Teach</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="#contact-form">Contact Us</a>
+                </li>
+            </ul>
         </div>
-
     </nav>
 
     <!-- End of header section -->
 
     <!-- start of the main body of content of the webpage -->
 
+    <div class="container-fluid hero-image-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                <div class="hero-image-text">
+                    <h1 class="hero-text-heading">RCT School of Music</h1>
+                    <p class="lead">Where you can unlock your full musical potential!</p>
+                    <a class="btn btn-info btn-lg" href="#contact-form">Contact Us!</a>
+                </div>
+            </div>
+        </div>
 
-    <div class="row">
+    </div>
 
-        <div class="container hero-image-container">
-            <div class="opaque-overlay">&nbsp;</div>
+    <!-- About Me section - for profile img and content -->
+
+    <div class="container-fluid">
+        <section id="about-me">
             <div class="row">
                 <div class="col-12">
-                    <div class="hero-image-text">
-                        <h1 class="hero-text-heading">RCT School of Music</h1>
-                        <p class="lead">Where you can unlock your full musical potential!</p>
-                        <a class="btn btn-info btn-lg" href="#contact-form">Contact Us!</a>
-                    </div>
+                    <h2 class="about-me-heading text-uppercase">About Me</h2>
                 </div>
             </div>
 
-        </div>
-
-        <!-- About Me section - for profile img and content -->
-
-        <div class="container">
-            <section id="about-me">
-
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="about-me-heading text-uppercase">About Me</h2>
+            <div class="row">
+                <div class="col image-box">
+                    <div class="circular-image-container col-12 col-sm-12 col-md-12 col-lg-6">
+                        <img class="image-background" src="./assets/images/profile-images/generic-profile-image.jpg"
+                            alt="Image of Andrew Llewellyn - Guitar Tutor">
+                    </div>
+                    <div>
+                        <h3 class="tutor-name text-capitalize">Andrew Llewellyn</h3>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="image-container col-12 col-sm-12 col-md-12 col-lg-6">
-                        <img class="image-background" src="./assets/images/profile-images/generic-profile-image.jpg"
-                            alt="Image of Andrew Llewellyn - Guitar Tutor">
-                        <h3 class="tutor-name text-capitalize">Andrew Llewellyn</h3>
-                    </div>
 
-
-                    <!-- content for the personal profile box to be displayed -->
+                <!-- content for the personal profile box to be displayed -->
+                <div class="col background-box">
                     <div class="background-content col-12 col-sm-12 col-md-12 col-lg-6">
 
                         <p>Born in to a musical family, I have been a musician since the tender age of four years
@@ -139,28 +136,30 @@
                             ABRSM, RGT and Rockschool Exams</p>
                     </div>
                 </div>
-            </section>
-        </div>
-        <!-- End of About Me section -->
+            </div>
+        </section>
+    </div>
+    <!-- End of About Me section -->
 
-        <hr>
+    <hr>
 
-        <!-- What I teach section - displays the details of musical instruments taught -->
-        <div class="container container-fluid">
-            <section id="teachings">
-
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="teachings-heading text-uppercase">What I Teach</h2>
-                    </div>
+    <!-- What I teach section - displays the details of musical instruments taught -->
+    <div class="container container-fluid">
+        <section id="teachings">
+            <div class="row">
+                <div class="col">
+                    <h2 class="teachings-heading text-uppercase">What I Teach</h2>
                 </div>
+            </div>
 
-                <div class="container instrument-type-container">
-                    <div class="row row-cols-2">
+            <div class="container container-fluid instrument-type-container">
+                <div class="row">
+                    <div class="col">
                         <div class="instrument-type col col-sm-12 col-md-6 col-lg-6">
-                            <img class="instrument" src="./assets/images/instrument-images/guitar.jpg"
+                            <img class="instrument img-fluid" src="./assets/images/instrument-images/guitar.jpg"
                                 alt="image of an Acoustic Guitar">
                             <h3>Guitar - All Types</h3>
+                            <p>£25 per hour of £12.50 for 30 mintues.</p>
                             <p>The styles I teach are:</p>
                             <ul class="styles">
                                 <li>Rock</li>
@@ -169,11 +168,13 @@
                                 <li>Finger Style</li>
                             </ul>
                         </div>
-
+                    </div>
+                    <div class="col">
                         <div class="instrument-type col col-sm-12 col-md-6 col-lg-6">
-                            <img class="instrument" src="./assets/images/instrument-images/drums.jpg"
+                            <img class="instrument img-fluid" src="./assets/images/instrument-images/drums.jpg"
                                 alt="image of a set of Drums">
                             <h3>Drums</h3>
+                            <p>£20 for 30 mintues only.</p>
                             <p>The styles I teach are:</p>
                             <ul class="styles">
                                 <li>Rock</li>
@@ -182,11 +183,15 @@
                                 <li>Funk</li>
                             </ul>
                         </div>
-
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
                         <div class="instrument-type col col-sm-12 col-md-6 col-lg-6">
-                            <img class="instrument" src="./assets/images/instrument-images/piano.jpg"
+                            <img class="instrument img-fluid" src="./assets/images/instrument-images/piano.jpg"
                                 alt="image of a Piano">
                             <h3>Piano</h3>
+                            <p>£25 per hour or £12.50 for 30 mintues.</p>
                             <p>The styles I teach are:</p>
                             <ul class="styles">
                                 <li>Rock</li>
@@ -195,11 +200,13 @@
                                 <li>Classical</li>
                             </ul>
                         </div>
-
+                    </div>
+                    <div class="col">
                         <div class="instrument-type col col-sm-12 col-md-6 col-lg-6">
-                            <img class="instrument" src="./assets/images/instrument-images/saxophone.jpg"
+                            <img class="instrument img-fluid" src="./assets/images/instrument-images/saxophone.jpg"
                                 alt="image of a Saxophone">
                             <h3>Saxophone</h3>
+                            <p>£20 for 30 mintues only.</p>
                             <p>The styles I teach are:</p>
                             <ul class="styles">
                                 <li>Jazz</li>
@@ -209,159 +216,158 @@
                             </ul>
                         </div>
                     </div>
-
-            </section>
-        </div>
-
-        <!-- End of Teachings section -->
-
-        <hr>
-
-        <!-- Testimonials section - display of student feedback -->
-
-        <div class="container container-fluid">
-            <section id="testimonials">
-
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="testimonials-heading text-uppercase">Testimonials</h2>
-                    </div>
                 </div>
+                <!-- </section> -->
+            </div>
 
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="student-image">
-                            <img src="./assets/images/profile-images/Daniel-profile.jpg" class="rounded-circle"
-                                alt="student image for Daniel Davies">
-                            <blockquote class="blockquote">
-                                <p>
-                                    "Andy, is the best guitar teacher I have ever had. He has the ability to bring
-                                    the
-                                    best
-                                    out
-                                    of
-                                    you every lesson and make you feel confident and that you’re making progress. He
-                                    is
-                                    one
-                                    of
-                                    the
-                                    nicest and most genuine person that you would meet."
-                                </p>
-                                <h3 class="student-name">Daniel Davies</h3>
-                            </blockquote>
+            <!-- End of Teachings section -->
+
+            <hr>
+
+            <!-- Testimonials section - display of student feedback -->
+
+            <div class="container container-fluid">
+                <section id="testimonials">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="testimonials-heading text-uppercase">Testimonials</h2>
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="student-image">
-                            <img src="./assets/images/profile-images/Jess-profile.jpg" class="rounded-circle"
-                                alt="student image for Jessica Price">
-                            <blockquote class="blockquote">
-                                <p>
-                                    "Having taken a number of years off from playing piano, I needed someone to
-                                    structue
-                                    a programme of support, to help me get back to the level I was at. My playing
-                                    has
-                                    come on leaps and bounds since coming to Andy for lessons."
-                                </p>
-                                <h3 class="student-name">Jessica Price</h3>
-                            </blockquote>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="student-image">
+                                <img src="./assets/images/profile-images/Daniel-profile.jpg" class="rounded-circle"
+                                    alt="student image for Daniel Davies">
+                                <blockquote class="blockquote">
+                                    <p>
+                                        "Andy, is the best guitar teacher I have ever had. He has the ability to bring
+                                        the
+                                        best
+                                        out
+                                        of
+                                        you every lesson and make you feel confident and that you’re making progress. He
+                                        is
+                                        one
+                                        of
+                                        the
+                                        nicest and most genuine person that you would meet."
+                                    </p>
+                                    <h3 class="student-name">Daniel Davies</h3>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="student-image">
+                                <img src="./assets/images/profile-images/Jess-profile.jpg" class="rounded-circle"
+                                    alt="student image for Jessica Price">
+                                <blockquote class="blockquote">
+                                    <p>
+                                        "Having taken a number of years off from playing piano, I needed someone to
+                                        structue
+                                        a programme of support, to help me get back to the level I was at. My playing
+                                        has
+                                        come on leaps and bounds since coming to Andy for lessons."
+                                    </p>
+                                    <h3 class="student-name">Jessica Price</h3>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 d-md-none d-lg-block col-lg-4">
+                            <div class="student-image">
+                                <img src="./assets/images/profile-images/Greg-profile.jpg" class="rounded-circle"
+                                    alt="student image for Greg Roach">
+                                <blockquote class="blockquote">
+                                    <p>
+                                        "Brilliant guitar teacher. I have had lessons for 18 months and I can really see
+                                        how
+                                        Andy has planned his sequence of lessons to improve my understanding and
+                                        technique.
+                                        He is a
+                                        very patient teacher and clearly explains concepts. Would definitely recommend!"
+                                    </p>
+                                    <h3 class="student-name">Greg Roach</h3>
+                                </blockquote>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-12 d-md-none d-lg-block col-lg-4">
-                        <div class="student-image">
-                            <img src="./assets/images/profile-images/Greg-profile.jpg" class="rounded-circle"
-                                alt="student image for Greg Roach">
-                            <blockquote class="blockquote">
-                                <p>
-                                    "Brilliant guitar teacher. I have had lessons for 18 months and I can really see
-                                    how
-                                    Andy has planned his sequence of lessons to improve my understanding and
-                                    technique.
-                                    He is a
-                                    very patient teacher and clearly explains concepts. Would definitely recommend!"
-                                </p>
-                                <h3 class="student-name">Greg Roach</h3>
-                            </blockquote>
+                </section>
+            </div>
+
+            <!-- End of Testimonials section -->
+
+            <hr>
+
+            <!-- Contact Me section - contact form for submission of learning requirements -->
+
+            <div class="container">
+                <section id="contact-form">
+
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="contact-form-heading text-uppercase">Contact Us</h2>
+                            <p>Contact me today, to see how I can help you achieve your musical goals!</p>
                         </div>
                     </div>
-                </div>
 
-            </section>
-        </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="fname" class="form-label">First Name:</label>
+                            <input type="text" class="form-control" id="fname" aria-describedby="first name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="lname" class="form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="lname" aria-describedby="last name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telephone" class="form-label">Tel No:</label>
+                            <input type="number" class="form-control" id="telephone" aria-describedby="contact number">
+                        </div>
+                        <div class="mb-5">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email address">
+                        </div>
 
-        <!-- End of Testimonials section -->
+                        <div class="instrument-checkbox-heading mb-3">
+                            <h3>What Instrument Would You Like To Learn?</h3>
+                        </div>
 
-        <hr>
+                        <div class="form-check form-check-inline mb-5">
+                            <input class="form-check-input" type="radio" name="guitar" id="guitar" value="guitar">
+                            <label class="form-check-label" for="guitar">Guitar</label>
+                        </div>
+                        <div class="form-check form-check-inline mb-5">
+                            <input class="form-check-input" type="radio" name="drums" id="drums" value="drums">
+                            <label class="form-check-label" for="drums">Drums</label>
+                        </div>
+                        <div class="form-check form-check-inline mb-5">
+                            <input class="form-check-input" type="radio" name="piano" id="piano" value="piano">
+                            <label class="form-check-label" for="piano">Piano</label>
+                        </div>
+                        <div class="form-check form-check-inline mb-5">
+                            <input class="form-check-input" type="radio" name="saxophone" id="saxophone"
+                                value="saxophone">
+                            <label class="form-check-label" for="saxophone">Saxophone</label>
+                        </div>
 
-        <!-- Contact Me section - contact form for submission of learning requirements -->
+                        <div class="mb-5">
+                            <label for="additional-details" class="form-label">Please provide any additional
+                                details:</label>
+                            <textarea class="form-control" id="additional-details" rows="3"></textarea>
+                        </div>
 
-        <div class="container">
-            <section id="contact-form">
+                        <div class="mb-5">
+                            <button type="submit" class="btn btn-success btn-lg">Submit</button>
+                        </div>
 
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="contact-form-heading text-uppercase">Contact Us</h2>
-                        <p>Contact me today, to see how I can help you achieve your musical goals!</p>
-                    </div>
-                </div>
+                    </form>
 
-                <form>
-                    <div class="mb-3">
-                        <label for="fname" class="form-label">First Name:</label>
-                        <input type="text" class="form-control" id="fname" aria-describedby="first name">
-                    </div>
-                    <div class="mb-3">
-                        <label for="lname" class="form-label">Last Name:</label>
-                        <input type="text" class="form-control" id="lname" aria-describedby="last name">
-                    </div>
-                    <div class="mb-3">
-                        <label for="telephone" class="form-label">Tel No:</label>
-                        <input type="number" class="form-control" id="telephone" aria-describedby="contact number">
-                    </div>
-                    <div class="mb-5">
-                        <label for="email" class="form-label">Email:</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="email address">
-                    </div>
-
-                    <div class="instrument-checkbox-heading mb-3">
-                        <h3>What Instrument Would You Like To Learn?</h3>
-                    </div>
-
-                    <div class="form-check form-check-inline mb-5">
-                        <input class="form-check-input" type="radio" name="guitar" id="guitar" value="guitar">
-                        <label class="form-check-label" for="guitar">Guitar</label>
-                    </div>
-                    <div class="form-check form-check-inline mb-5">
-                        <input class="form-check-input" type="radio" name="drums" id="drums" value="drums">
-                        <label class="form-check-label" for="drums">Drums</label>
-                    </div>
-                    <div class="form-check form-check-inline mb-5">
-                        <input class="form-check-input" type="radio" name="piano" id="piano" value="piano">
-                        <label class="form-check-label" for="piano">Piano</label>
-                    </div>
-                    <div class="form-check form-check-inline mb-5">
-                        <input class="form-check-input" type="radio" name="saxophone" id="saxophone" value="saxophone">
-                        <label class="form-check-label" for="saxophone">Saxophone</label>
-                    </div>
-
-                    <div class="mb-5">
-                        <label for="additional-details" class="form-label">Please provide any additional
-                            details:</label>
-                        <textarea class="form-control" id="additional-details" rows="3"></textarea>
-                    </div>
-
-                    <div class="mb-5">
-                        <button type="submit" class="btn btn-success btn-lg">Submit</button>
-                    </div>
-
-                </form>
-
-            </section>
-        </div>
-
-        <!-- End of Contact Me section -->
+                </section>
+            </div>
+            <!-- End of Contact Me section -->
     </div>
 
 
