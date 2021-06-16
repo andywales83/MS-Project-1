@@ -21,7 +21,7 @@
 
     <!-- Header section for page logo and navigation menu-->
 
-    <div class="container-fluid g-0">
+    <div class="container-fluid">
         <nav class="navbar navbar-light bg-light navbar-expand-md">
             <!-- page logo -->
             <a class="navbar-brand" href="index.html" title="home"
@@ -65,8 +65,8 @@
     <!-- start of the main body of content of the webpage -->
 
     <div class="container-fluid hero-image-container">
-        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
+            <div class="opaque-overlay">&nbsp;</div>
             <div class="col-12">
                 <div class="hero-image-text">
                     <h1 class="hero-text-heading">RCT School of Music</h1>
@@ -90,7 +90,7 @@
 
             <div class="row">
                 <div class="col image-box">
-                    <div class="circular-image-container col col-md-12 col-lg-6">
+                    <div class="circular-image-container col-sm-12 col-md-12 col-lg-6">
                         <img class="image-background" src="./assets/images/profile-images/generic-profile-image.jpg"
                             alt="Image of Andrew Llewellyn - Guitar Tutor">
                     </div>
@@ -102,7 +102,7 @@
 
                 <!-- content for the personal profile box to be displayed -->
                 <div class="col background-box">
-                    <div class="background-content col col-md-12 col-lg-6">
+                    <div class="background-content col-sm-12 col-md-12 col-lg-6">
 
                         <p>Born in to a musical family, I have been a musician since the tender age of four years
                             old.
@@ -238,7 +238,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row g-3">
                 <div class="col-md-12 col-lg-4">
                     <div class="card" style="width: 25rem;">
                         <img src="./assets/images/profile-images/Daniel-profile.jpg" class="card-img-top"
@@ -281,7 +281,7 @@
                             alt="Image of drums student Greg Roach">
                         <div class="card-body">
                             <h5 class="card-title">Greg Roach</h5>
-                            <p class="card-text">"Brilliant guitar teacher. I have had lessons for 18 months and
+                            <p class="card-text">"I have had lessons for 18 months and
                                 I can really see
                                 how
                                 Andy has planned his sequence of lessons to improve my understanding and
@@ -300,8 +300,6 @@
 
     <!-- End of Testimonials section -->
 
-    <hr>
-
     <!-- Contact Me section - contact form for submission of learning requirements -->
 
     <div class="container-fluid contact-form-container">
@@ -310,26 +308,26 @@
             <div class="row">
                 <div class="col-12">
                     <h2 class="contact-form-heading text-uppercase">Contact Us</h2>
-                    <p>Contact me today, to see how I can help you achieve your musical goals!</p>
+                    <p class="callout lead">Contact me today, to see how I can help you achieve your musical goals!</p>
                 </div>
             </div>
 
             <form>
                 <div class="mb-3">
                     <label for="fname" class="form-label">First Name:</label>
-                    <input type="text" class="form-control" id="fname" aria-describedby="first name">
+                    <input type="text" class="form-control" id="fname" aria-describedby="first name" required>
                 </div>
                 <div class="mb-3">
                     <label for="lname" class="form-label">Last Name:</label>
-                    <input type="text" class="form-control" id="lname" aria-describedby="last name">
+                    <input type="text" class="form-control" id="lname" aria-describedby="last name" required>
                 </div>
                 <div class="mb-3">
                     <label for="telephone" class="form-label">Tel No:</label>
-                    <input type="number" class="form-control" id="telephone" aria-describedby="contact number">
+                    <input type="number" class="form-control" id="telephone" aria-describedby="contact number" required>
                 </div>
                 <div class="mb-5">
                     <label for="email" class="form-label">Email:</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="email address">
+                    <input type="email" class="form-control" id="email" aria-describedby="email address" required>
                 </div>
 
                 <div class="instrument-checkbox-heading mb-3">
@@ -337,19 +335,21 @@
                 </div>
 
                 <div class="form-check form-check-inline mb-5">
-                    <input class="form-check-input" type="radio" name="guitar" id="guitar" value="guitar">
+                    <input class="form-check-input" type="radio" name="guitar" id="guitar" value="guitar" checked
+                        required>
                     <label class="form-check-label" for="guitar">Guitar</label>
                 </div>
                 <div class="form-check form-check-inline mb-5">
-                    <input class="form-check-input" type="radio" name="drums" id="drums" value="drums">
+                    <input class="form-check-input" type="radio" name="drums" id="drums" value="drums" required>
                     <label class="form-check-label" for="drums">Drums</label>
                 </div>
                 <div class="form-check form-check-inline mb-5">
-                    <input class="form-check-input" type="radio" name="piano" id="piano" value="piano">
+                    <input class="form-check-input" type="radio" name="piano" id="piano" value="piano" required>
                     <label class="form-check-label" for="piano">Piano</label>
                 </div>
                 <div class="form-check form-check-inline mb-5">
-                    <input class="form-check-input" type="radio" name="saxophone" id="saxophone" value="saxophone">
+                    <input class="form-check-input" type="radio" name="saxophone" id="saxophone" value="saxophone"
+                        required>
                     <label class="form-check-label" for="saxophone">Saxophone</label>
                 </div>
 
@@ -368,21 +368,13 @@
         </section>
     </div>
     <!-- End of Contact Me section -->
-    </div>
-
 
     <!-- Footer section for social media content and copyright -->
-
-    <footer>
-
-        <div class="row">
-            <ul>
-                <li>
-                    <a href="https://uk.linkedin.com/" target="_blank"
-                        aria-label="LinkedIn Icon with link to LinkedIn page"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-
-                <li>
+    <footer class="text-center text-lg">
+        
+                <a href="https://uk.linkedin.com/" target="_blank"
+                    aria-label="LinkedIn Icon with link to LinkedIn page"><i class="fab fa-linkedin-in"></i></a>
+                
                     <a href="https://en-gb.facebook.com/" target="_blank"
                         aria-label="Facebook Icon with link to Facebook page"><i class="fab fa-facebook-f"></i></a>
                 </li>
@@ -396,9 +388,10 @@
                     <a href="https://twitter.com/" target="_blank"
                         aria-label="Twitter Icon with link to twitter page"><i class="fab fa-twitter"></i></a>
                 </li>
-            </ul>
+                </ul>
+            </div>
         </div>
-
+        </div>
     </footer>
 
     <!-- end of footer section -->
