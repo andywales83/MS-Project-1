@@ -110,8 +110,8 @@ body {
 
 /* --------------- About Me Styling --------------- */
 
-.about-me-contaner {
-    display: flex;
+.about-me-outer {
+    margin-bottom: 50px;
 }
 
 .image-box {
@@ -143,16 +143,16 @@ body {
 }
 
 .background-box {
-    margin: auto;
+    margin: 0 auto;
 }
 
 .background-content {
     border: 1px solid #4d4d4d;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
-    margin: 0px 50px 40px 50px;
+    margin: 20px 50px;
     padding: 20px;
-    width: fit-content;
+    width: auto;
 }
 
 /* --------------- What I Teach Styling --------------- */
@@ -173,7 +173,6 @@ body {
 }
 
 /* --------------- Testimonials Styling --------------- */
-
 
 .card {
     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
@@ -212,6 +211,3 @@ form{
 
 /* --------------- Footer Styling --------------- */
 
-footer {
-    background-color: #195361;
-}
