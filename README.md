@@ -1,59 +1,65 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# RCT School of Music
 
-Welcome Andrew Llewellyn,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+[View the live project here](#)
 
 ---
 
-Happy coding!
+
+## Contents
+
+- [Project Description](#project-description)
+- [UX Design](#ux-design)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+
+---
+
+## Project Description   
+
+RCT School of Music is a fictional website for a music school in my home town, in South Wales. The website will primarily be aimed more at general customers, however it will still need a professional look and design, along with the incorporation of user friendly but professional looking features. Features included are an overview of the tutor and their professional background, a list of the different instruments to which tutoring is being offered, an opportunity to read testimonials from current or previous learners, a clear indication of the prices and an opportunity to book a lesson or ask any questions in advance, via a contact form.
+
+Being a musician myself, I appreciate how dificult it often is as a beginner, to find local tutors in the area, who have websites that fully detail what they offer, in a structured and comprehensive manner. This website is built with the hopes of aspiring students, having a valuable resource at hand, where they can access details of the instruments taught, the styles of music taught, how the lessons can be delivered and enough details about the tutor and their background, to encourage an informed decision to book a lesson
+
+---
+
+## UX Design
+
+- ### User Stories:
+
+    - #### First Time Visitor Goals
+
+    1. As a first time visitor, I want to be able to quickly understand the purpose of the website.
+    2. As a first time visitor, I want to be able to easily navigate the site, with access to the necessary content being clear and direct.
+    3. As a first time visitor, I want to be able to read and review current or previous learner testimonials, to help aid my decision to sign-up.
+
+    - #### Returning Visitor Goals
+
+    1. As a returning visitor, I want to be able to email the company/tutor to enquire about booking a lesson and/or ask questions.
+    2. As a returning visitor, I want to be able to fully understand what is being offered by the website, in terms of the musical instruments being taught, the levels, the styles, who the tutors are and the costs.
+    3. As a returning visitor, I would want to find links to the company's social media platforms where i could review their following and any additional testimonials and feedback they have gained online.
+
+    - #### Frequent User Goals
+
+    1. As a frequent user, I want to be able to see any new offers introduced on bookings.
+    2. As a frequent user, I want to be able to see if there are any opportunities coming up, to learn a new instument or style.
+    3. As a frequent user, I want to be able to book a lesson directly through the website using an incorporated calendar.
+    4. As a frequent user, I want to be able to register for  a newsletter that may provide information on upcoming offers, as well as updates to the site or to the business.
+
+
+## Features
+
+### Existing Features
+### Features to implement in the future
+
+## Technologies Used
+
+- This project uses the core programming languages of HTML & CSS and Bootstrap 5.
+
+## Testing
+
+## Deployment
+
+## Credits
