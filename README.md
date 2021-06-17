@@ -53,28 +53,45 @@ Being a musician myself, I appreciate how dificult it often is as a beginner, to
 
 ### Existing Features
 
+<!-- Space for image of the navigation bar -->
+
 - Navigation Bar
     - Featured at the top of the main home screen, the navigation bar has been coded to remain in place and does not move with the screen as the user scrolls. The navigation bar is fully responsive and structured to show the logo for the site, as well as links to the About Me, Teachings, Testimonials and Contact Form Sections.
+    - the navigation bar incorprates Bootstrap 5's version of the navbar toggler, that breaks the navbar down and hides it behind the toggler at the medium breakpoint of responsiveness.
 
+<!-- Space for image of the Hero Image and central text box -->
+
+- Hero Image Section
+    - The hero image section was designed with the idea of really influencing a user to find out more about the service. The large image of somebody holding an Acoustic Guitar was selected, to really highlight visually, the dynamic of what the site is all about. 
+    - Centered in the middle of the Hero Image is a text box, that was again incorporated to really spark an interest in the service and influence a user to want to find out more. The text box was designed with the larger logo, the leading paragraph "Join us and unlock your full musical potential!" and the Contact Us! button to really draw in that initial focus of a user and instantly encourage them to make contact.
+
+<!-- Space for image of the about me section -->
 
 - About Me Section
+    - The About Me section was created to instantly give the user a sense of association with the school's tutor. The image chosen for the tutor, was done so with the view to keeping the About Me scetion consistent with a professional but welcoming feel. 
+    - The written content of the About Me section, was again written with the view to providing a professional but welcoming background, to the tutors musical experience and qualifications that could have a great influence on a potential customer, chosing to use the school's services for their musical learning.
 
-
+<!-- Space for the image of the What I Teach section -->
 
 - What I Teach Section
+    - This section of the website will quickly 
 
+<!-- Space for the image of the What I Testimonials section -->
 
 - Testimonials Section
 
+<!-- Space for the image of the Contact Form -->
 
 - Contact Form Section
+
+<!-- Space for the image of the Footer -->
 
 - Footer Section
 ### Features to implement in the future
 
 ## Technologies Used
 
-- This project uses the core programming languages of HTML & CSS and Bootstrap 5.
+- This project uses the core programming languages of HTML5, CSS3 and Bootstrap 5.
 
 ## Testing
 
