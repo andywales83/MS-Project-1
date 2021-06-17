@@ -38,8 +38,8 @@ Being a musician myself, I appreciate how dificult it often is as a beginner, to
     - #### Returning Visitor Goals
 
     1. As a returning visitor, I want to be able to email the company/tutor to enquire about booking a lesson and/or ask questions.
-    2. As a returning visitor, I want to be able to fully understand what is being offered by the website, in terms of the musical instruments being taught, the levels, the styles, who the tutors are and the costs.
-    3. As a returning visitor, I would want to find links to the company's social media platforms where i could review their following and any additional testimonials and feedback they have gained online.
+    2. As a returning visitor, I want to be able to fully understand what is being offered by the website, in terms of the musical instruments being taught, the levels, the styles, who the tutor os and the costs.
+    3. As a returning visitor, I would want to find links to the company's social media platforms where I could review their following and any additional testimonials and feedback they have gained online.
 
     - #### Frequent User Goals
 
@@ -52,6 +52,24 @@ Being a musician myself, I appreciate how dificult it often is as a beginner, to
 ## Features
 
 ### Existing Features
+
+- Navigation Bar
+    - Featured at the top of the main home screen, the navigation bar has been coded to remain in place and does not move with the screen as the user scrolls. The navigation bar is fully responsive and structured to show the logo for the site, as well as links to the About Me, Teachings, Testimonials and Contact Form Sections.
+
+
+- About Me Section
+
+
+
+- What I Teach Section
+
+
+- Testimonials Section
+
+
+- Contact Form Section
+
+- Footer Section
 ### Features to implement in the future
 
 ## Technologies Used
