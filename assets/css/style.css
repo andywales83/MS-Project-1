@@ -4,6 +4,9 @@
     border: 0;
 }
 
+/* html {
+    width: 100%;
+} */
 body {
     font-family: 'Lato', sans-serif !important;
     color: #4d4d4d;
@@ -17,7 +20,7 @@ body {
 .teachings-heading,
 .about-me-heading {
     font-family: 'Poppins', sans-serif !important;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #195361;
     margin: 40px auto;
     text-align: center;
@@ -109,7 +112,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
+    /* padding: auto; */
     border: 6px solid white;
     text-align: center;
     letter-spacing: 4px;
@@ -129,8 +132,8 @@ body {
     margin: auto;
 }
 .circular-image-container {
-    height: 330px;
-    width: 330px;
+    height: 300px;
+    width: 300px;
     padding: 20px;
     border: 1px solid #4d4d4d;
     border-radius: 50%;
