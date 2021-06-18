@@ -47,7 +47,7 @@ body {
     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
     text-align: justify;
     margin: 30px auto 50px auto;
-    
+
 }
 
 
@@ -121,6 +121,9 @@ body {
 
 /* --------------- About Me Styling --------------- */
 
+.profile-outer {
+    margin-bottom: 60px;
+}
 .circular-image-container {
     height: 350px;
     width: 350px;
@@ -128,6 +131,10 @@ body {
     border: 1px solid #4d4d4d;
     border-radius: 50%;
     margin: 0px auto;
+}
+
+.image-box {
+    margin: auto;
 }
 
 .image-background {
@@ -167,7 +174,7 @@ body {
 
 .lesson-price {
     text-align: center;
-    font-size: 1.3em; 
+    font-size: 1.3em;
 }
 
 /* --------------- Testimonials Styling --------------- */
@@ -175,6 +182,7 @@ body {
 .card-container {
     margin: left;
 }
+
 .student-title {
     text-align: center;
     font-size: 2em;
@@ -193,21 +201,26 @@ body {
     font-size: 1.6em;
     color: #fff;
 }
- 
-form{
-     max-width: 800px;
-     margin-left: auto;
-     margin-right: auto;
- }
- 
- label {
-     font-size: 1.3em;
-     color: #fff;
- }
 
- .btn-success {
-     margin-bottom: 30px;
- }
+form {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-success {
+    margin-bottom: 30px;
+}
 
 /* --------------- Footer Styling --------------- */
 
@@ -218,3 +231,4 @@ footer {
 footer a {
     font-size: 1.5em;
 }
+
