@@ -57,7 +57,7 @@ body {
     font-weight: 600;
     letter-spacing: 2px;
     color: #195361 !important;
-    margin: 0 auto;
+    margin-left: 20px;
 }
 
 .nav {
@@ -77,6 +77,7 @@ body {
 
 .hero-image-container {
     height: 100vh;
+    min-width: 100%;
 
     background: url('../images/Guitar-hero-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -118,14 +119,6 @@ body {
 }
 
 /* --------------- About Me Styling --------------- */
-
-.about-me-outer {
-    margin-bottom: 50px;
-}
-
-.image-box {
-    margin: auto;
-}
 
 .circular-image-container {
     height: 350px;
