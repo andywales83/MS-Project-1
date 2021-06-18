@@ -116,7 +116,7 @@ There are multiple updates that could be implemented in the future, that would a
     - The project uses imported font families from the Google Font platform.
 
 - Balsamiq 
-    - the balsamiq platform was used to wireframe designs
+    - the balsamiq platform was used to wireframe designs.
 
 ## Testing
 
