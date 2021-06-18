@@ -1,6 +1,6 @@
 # RCT School of Music
 
-[View the live project here](#)
+[View the live project here](https://andywales83.github.io/MS-Project-1/)
 
 ---
 
@@ -74,7 +74,8 @@ Being a musician myself, I appreciate how dificult it often is as a beginner, to
 <!-- Space for the image of the What I Teach section -->
 
 - What I Teach Section
-    - This section of the website will quickly 
+    - This section of the website, was built to highlight what is taught at the school. The visuals were chosen, so that a site visitor would be able to quickly identify what instruments they can learn, even if there was no textual representation of the offering.
+    - The card style desings allowed for sufficient space, to add content relating to the cost of tutoring, and what styles of music a learner can choose to learn from.    
 
 <!-- Space for the image of the What I Testimonials section -->
 
@@ -89,12 +90,55 @@ Being a musician myself, I appreciate how dificult it often is as a beginner, to
 - Footer Section
 ### Features to implement in the future
 
+There are multiple updates that could be implemented in the future, that would add additional user benefit and would fall in line, with the scope of the goals to increase the features for frequent users.
+
+- Implemented features could include:
+    - implementation of a direct to source calendar booking system such as calendly, where learners can directly access the calendar for teh tutor, and book in a slot for a lesson from a pre-set number of days and times.
+    - implementation of an alert bar, that gives users information on details such as new instruments that are being introduced to the offering. Offers that can be accessed, such as referral rates for friends and family, or reduced lesson prices through blocked bookings.
+    - implementation of a new section or page that allows the tutor to create an online blog, introducing snippets of lessons, musical techniques or ideas and concepts.
+    - A frequently asked questions page, where the most common questions asked by students are answered, giving potential customer a greater depth of readily available information.    
+    - introduction of a monthly subscription where students can access a subscription only area with video and tutorials and downloadable content. 
+
 ## Technologies Used
 
-- This project uses the core programming languages of HTML5, CSS3 and Bootstrap 5.
+- This project uses the core programming languages of HTML5 and CSS3.
+
+- Github 
+    - The project uses Github as the main repository storage space for this website
+    - An extension of Github, Gitpod was used as the main development platform when building the site and all development stages were committed to Git and pushed to Github accordingly.
+    - Github Pages is then used to host a live version of the webpage following the deployment process outlined below.
+
+- Bootstrap 5 
+    - Bootstrap 5 was used to help create a simplified way of controlling the overall responsiveness of the site.
+    - Bootstrap was also used to implement design features such as the nav bartoggler, cards, contact form styling and the footer.
+
+- Google Fonts
+    - The project uses imported font families from the Google Font platform.
+
+- Balsamiq 
+    - the balsamiq platform was used to wireframe designs
 
 ## Testing
 
 ## Deployment
 
+This project has been created using the Gitpod IDE. Through numerous occasions, the project development has been pushed to Git and Committed in full, to Github. This has been carried out using the built in fuction of Gitpod
+
+For live viewing on Github Pages, the project was deployed using the following method:
+
+    - Log in to Github.
+    - Select the required Github repository.
+    - Make sure that the repository is on the Master branch.
+    - Clicking on the Settings tab from the menu listed under the repository name.
+    - Selecting the Pages tab from the Settings menu, that is listed down the left side of the screen.
+    - Clicking on the button under the sources section labeled None and selecting Master Branch
+    - Clicking on the save button, to activate the deployment to Github Pages. 
+
+
 ## Credits
+
+### Code Creation
+
+### Images
+
+### Written Content
