@@ -81,7 +81,8 @@ body {
 
 .hero-image-container {
     height: 100vh;
-    min-width: 100%;
+    padding: 10px 0px;
+    /* min-width: 100%; */
 
     background: url('../images/Guitar-hero-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -112,14 +113,14 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* padding: auto; */
-    border: 6px solid white;
+    padding: 20px;
+    border: 2px solid white;
     text-align: center;
     letter-spacing: 4px;
 }
 
 .hero-text-heading {
-    font-size: 5rem;
+    font-size: 4.5em;
 }
 
 /* --------------- About Me Styling --------------- */
