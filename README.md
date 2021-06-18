@@ -2,7 +2,7 @@
 
 [View the live project here](https://andywales83.github.io/MS-Project-1/)
 
-![Am I Responsive Image](am-I-responsive.png)
+![Am I Responsive Image](Documentation/readme-images/am-I-responsive.png)
 
 ---
 
@@ -55,25 +55,25 @@ Being a musician myself, I appreciate how dificult it often is as a beginner, to
 
 ### Existing Features
 
-<!-- Space for image of the navigation bar -->
-
-- Navigation Bar
+- **Navigation Bar**
     - Featured at the top of the main home screen, the navigation bar has been coded to remain in place and does not move with the screen as the user scrolls. The navigation bar is fully responsive and structured to show the logo for the site, as well as links to the About Me, Teachings, Testimonials and Contact Form Sections.
-    - the navigation bar incorprates Bootstrap 5's version of the navbar toggler, that breaks the navbar down and hides it behind the toggler at the medium breakpoint of responsiveness.
+    - The navigation bar also incorprates Bootstrap 5's version of the navbar toggler, that breaks the navbar down and hides it behind the toggler at the medium breakpoint of responsiveness.
 
-<!-- Space for image of the Hero Image and central text box -->
+    ![Navigation Bar Image](Documentation/readme-images/website-header.png)
+
 
 - Hero Image Section
     - The hero image section was designed with the idea of really influencing a user to find out more about the service. The large image of somebody holding an Acoustic Guitar was selected, to really highlight visually, the dynamic of what the site is all about. 
-    - Centered in the middle of the Hero Image is a text box, that was again incorporated to really spark an interest in the service and influence a user to want to find out more. The text box was designed with the larger logo, the leading paragraph "Join us and unlock your full musical potential!" and the Contact Us! button to really draw in that initial focus of a user and instantly encourage them to make contact.
+    - Centered in the middle of the Hero Image is a text box, that was again incorporated to really spark an interest in the service and influence a user to want to find out more. The text box was designed with the larger logo, the leading paragraph "Where you can unlock your full musical potential!" and the Contact Us! button to really draw in that initial focus of a user and instantly encourage them to make contact.
 
-<!-- Space for image of the about me section -->
+    ![Hero Image](Documentation/readme-images/website-hero-image.png)
+
 
 - About Me Section
     - The About Me section was created to instantly give the user a sense of association with the school's tutor. The image chosen for the tutor, was done so with the view to keeping the About Me scetion consistent with a professional but welcoming feel. 
     - The written content of the About Me section, was again written with the view to providing a professional but welcoming background, to the tutors musical experience and qualifications that could have a great influence on a potential customer, chosing to use the school's services for their musical learning.
 
-<!-- Space for the image of the What I Teach section -->
+    ![About Me Image](Documentation/readme-images/website-about-me.png)
 
 - What I Teach Section
     - This section of the website, was built to highlight what is taught at the school. The visuals were chosen, so that a site visitor would be able to quickly identify what instruments they can learn, even if there was no textual representation of the offering.
@@ -82,14 +82,22 @@ Being a musician myself, I appreciate how dificult it often is as a beginner, to
 <!-- Space for the image of the What I Testimonials section -->
 
 - Testimonials Section
+    - The tesimonials section was developed, to allow users to gain insight in to the thoughts of other students, and hopefully encourage a potential customer to contact the School.
+    - The section contains three sets of feedback quotes at its largest and smallest screen sizes, with one being hidden at the medium screen size for a better overall look at medium screen widths.
+
+    ![Testimonials Image](Documentation/readme-images/website-testimonials.png)
 
 <!-- Space for the image of the Contact Form -->
 
 - Contact Form Section
 
+    ![Contact Form Image](Documentation/readme-images/website-contact-form.png)
+
 <!-- Space for the image of the Footer -->
 
 - Footer Section
+
+    ![Footer Image](Documentation/readme-images/website-footer.png)
 ### Features to implement in the future
 
 There are multiple updates that could be implemented in the future, that would add additional user benefit and would fall in line, with the scope of the goals to increase the features for frequent users.
