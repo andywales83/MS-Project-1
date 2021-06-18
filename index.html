@@ -21,7 +21,7 @@
 
     <!-- Header section for page logo and navigation menu-->
 
-    <div class="container-fluid g-0">
+    <header class="container-fluid g-0">
         <nav class="navbar navbar-light bg-light navbar-expand-md">
             <!-- page logo -->
             <a class="navbar-brand" href="index.html" title="home"
@@ -57,14 +57,14 @@
                 </ul>
             </div>
         </nav>
-    </div>
+    </header>
 
 
     <!-- End of header section -->
 
     <!-- start of the main body of content of the webpage -->
 
-    <div class="container-fluid hero-image-container">
+    <section class="container-fluid hero-image-container">
         <div class="row">
             <div class="opaque-overlay">&nbsp;</div>
             <div class="col-12">
@@ -75,179 +75,177 @@
                 </div>
             </div>
         </div>
-
-    </div>
+    </section>
 
     <!-- About Me section - for profile img and content -->
 
-    <div class="container-fluid">
-        <section id="about-me">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="about-me-heading text-uppercase">About Me</h2>
+    <section id="about-me" class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="about-me-heading text-uppercase">About Me</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col image-box">
+                <div class="circular-image-container col-sm-12 col-md-12 col-lg-6">
+                    <img class="image-background" src="./assets/images/profile-images/generic-profile-image.jpg"
+                        alt="Image of Andrew Llewellyn - Guitar Tutor">
+                </div>
+                <div>
+                    <h3 class="tutor-name text-capitalize">Andrew Llewellyn</h3>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col image-box">
-                    <div class="circular-image-container col-sm-12 col-md-12 col-lg-6">
-                        <img class="image-background" src="./assets/images/profile-images/generic-profile-image.jpg"
-                            alt="Image of Andrew Llewellyn - Guitar Tutor">
-                    </div>
-                    <div>
-                        <h3 class="tutor-name text-capitalize">Andrew Llewellyn</h3>
-                    </div>
-                </div>
 
+            <!-- content for the personal profile box to be displayed -->
+            <div class="col background-box">
+                <div class="background-content col-sm-12 col-md-12 col-lg-6">
 
-                <!-- content for the personal profile box to be displayed -->
-                <div class="col background-box">
-                    <div class="background-content col-sm-12 col-md-12 col-lg-6">
+                    <p>Born in to a musical family, I have been a musician since the tender age of four years
+                        old.
+                    </p>
 
-                        <p>Born in to a musical family, I have been a musician since the tender age of four years
-                            old.
-                        </p>
+                    <p>I am a multi-instrumentalist and a Graduate of Cardiff University School of Music
+                        where I studied and received a BA Hons in Music.</p>
 
-                        <p>I am a multi-instrumentalist and a Graduate of Cardiff University School of Music
-                            where I studied and received a BA Hons in Music.</p>
+                    <p>Throughout my musical career, I have also achieved:</p>
 
-                        <p>Throughout my musical career, I have also achieved:</p>
+                    <ul>
+                        <li>Diploma Of The London College Of Music - DipLCM in Teaching</li>
+                        <li>ABRSM - Practical Grade 8 in Saxophone</li>
+                        <li>RSL - Classical Piano Grade 8</li>
+                        <li>LCM - Performance Award in Drums</li>
+                    </ul>
 
-                        <ul>
-                            <li>Diploma Of The London College Of Music - DipLCM in Teaching</li>
-                            <li>ABRSM - Practical Grade 8 in Saxophone</li>
-                            <li>RSL - Classical Piano Grade 8</li>
-                            <li>LCM - Performance Award in Drums</li>
-                        </ul>
+                    <p>I have been teaching privately since 2005, and just a year later in 2006, I decided to
+                        open
+                        the
+                        RCT School of Music, where I am the tutor for all musical instruments. Before going into
+                        business for myself, I previously taught students at Tonypandy Community College
+                        (Peripatetic).
+                    </p>
 
-                        <p>I have been teaching privately since 2005, and just a year later in 2006, I decided to
-                            open
-                            the
-                            RCT School of Music, where I am the tutor for all musical instruments. Before going into
-                            business for myself, I previously taught students at Tonypandy Community College
-                            (Peripatetic).
-                        </p>
+                    <p>I aim to provide tuition in a friendly and relaxed atmosphere, and utilise my experience
+                        in
+                        teaching both the RGT and Rockschool syllabus, to help you achieve excellent results in
+                        your
+                        exams, should you choose to take them</p>
 
-                        <p>I aim to provide tuition in a friendly and relaxed atmosphere, and utilise my experience
-                            in
-                            teaching both the RGT and Rockschool syllabus, to help you achieve excellent results in
-                            your
-                            exams, should you choose to take them</p>
-
-                        <p>I am proud to note that all of my students to date, have to date enjoyed a 100% pass rate
-                            in
-                            ABRSM, RGT and Rockschool Exams</p>
-                    </div>
+                    <p>I am proud to note that all of my students to date, have to date enjoyed a 100% pass rate
+                        in
+                        ABRSM, RGT and Rockschool Exams</p>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
+
     <!-- End of About Me section -->
 
     <hr>
 
     <!-- What I teach section - displays the details of musical instruments taught -->
-    <div class="container container-fluid">
-        <section id="teachings">
-            <div class="row">
-                <div class="col">
-                    <h2 class="teachings-heading text-uppercase">What I Teach</h2>
-                </div>
-            </div>
 
-            <div class="container-fluid instrument-type-container">
-                <div class="row">
-                    <div class="col-md-12 col-lg-6">
-                        <div class="card" style="width: 30rem;">
-                            <img src="./assets/images/instrument-images/guitar.jpg" class="card-img-top"
-                                alt="image of an Acoustic Guitar">
-                            <div class="card-body">
-                                <h5 class="instrument-type">Guitar</h5>
-                                <p class="lesson-price">£25 per hour of £12.50 for 30 mintues.</p>
-                                <p>The styles I teach are:</p>
-                                <ul class="styles">
-                                    <li>Rock</li>
-                                    <li>Blues</li>
-                                    <li>Jazz</li>
-                                    <li>Finger Style</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-lg-6">
-                        <div class="card" style="width: 30rem;">
-                            <img src="./assets/images/instrument-images/drums.jpg" class="card-img-top"
-                                alt="image of a set of Drums">
-                            <div class="card-body">
-                                <h5 class="instrument-type">Drums</h5>
-                                <p class="lesson-price">£20 for 30 mintues only.</p>
-                                <p>The styles I teach are:</p>
-                                <ul class="styles">
-                                    <li>Rock</li>
-                                    <li>Blues</li>
-                                    <li>Jazz</li>
-                                    <li>Funk</li>
-                                </ul>
-                            </div>
+    <section id="teachings" class="container container-fluid">
+        <div class="row">
+            <div class="col">
+                <h2 class="teachings-heading text-uppercase">What I Teach</h2>
+            </div>
+        </div>
+
+        <div class="container-fluid instrument-type-container">
+            <div class="row g-5">
+                <div class="col-md-12 col-lg-6">
+                    <div class="card" style="width: auto;">
+                        <img src="./assets/images/instrument-images/guitar.jpg" class="card-img-top"
+                            alt="image of an Acoustic Guitar">
+                        <div class="card-body">
+                            <h5 class="instrument-type">Guitar</h5>
+                            <p class="lesson-price">£25 per hour of £12.50 for 30 mintues.</p>
+                            <p>The styles I teach are:</p>
+                            <ul class="styles">
+                                <li>Rock</li>
+                                <li>Blues</li>
+                                <li>Jazz</li>
+                                <li>Finger Style</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-6">
-                        <div class="card" style="width: 30rem;">
-                            <img src="./assets/images/instrument-images/piano.jpg" class="card-img-top"
-                                alt="image of the keys of a Piano">
-                            <div class="card-body">
-                                <h5 class="instrument-type">Piano</h5>
-                                <p class="lesson-price">£25 per hour or £12.50 for 30 mintues.</p>
-                                <p>The styles I teach are:</p>
-                                <ul class="styles">
-                                    <li>Rock</li>
-                                    <li>Blues</li>
-                                    <li>Jazz</li>
-                                    <li>Classical</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-lg-6">
-                        <div class="card" style="width: 30rem;">
-                            <img src="./assets/images/instrument-images/saxophone.jpg" class="card-img-top"
-                                alt="image of a Saxophone">
-                            <div class="card-body">
-                                <h5 class="instrument-type">Saxophone</h5>
-                                <p class="lesson-price">£20 for 30 mintues only.</p>
-                                <p>The styles I teach are:</p>
-                                <ul class="styles">
-                                    <li>Jazz</li>
-                                    <li>Blues</li>
-                                    <li>Swing</li>
-                                    <li>Soul</li>
-                                </ul>
-                            </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="card" style="width: auto;">
+                        <img src="./assets/images/instrument-images/drums.jpg" class="card-img-top"
+                            alt="image of a set of Drums">
+                        <div class="card-body">
+                            <h5 class="instrument-type">Drums</h5>
+                            <p class="lesson-price">£20 for 30 mintues only.</p>
+                            <p>The styles I teach are:</p>
+                            <ul class="styles">
+                                <li>Rock</li>
+                                <li>Blues</li>
+                                <li>Jazz</li>
+                                <li>Funk</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
+            <div class="row g-5">
+                <div class="col-md-12 col-lg-6">
+                    <div class="card" style="width: auto;">
+                        <img src="./assets/images/instrument-images/piano.jpg" class="card-img-top"
+                            alt="image of the keys of a Piano">
+                        <div class="card-body">
+                            <h5 class="instrument-type">Piano</h5>
+                            <p class="lesson-price">£25 per hour or £12.50 for 30 mintues.</p>
+                            <p>The styles I teach are:</p>
+                            <ul class="styles">
+                                <li>Rock</li>
+                                <li>Blues</li>
+                                <li>Jazz</li>
+                                <li>Classical</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="card" style="width: auto;">
+                        <img src="./assets/images/instrument-images/saxophone.jpg" class="card-img-top"
+                            alt="image of a Saxophone">
+                        <div class="card-body">
+                            <h5 class="instrument-type">Saxophone</h5>
+                            <p class="lesson-price">£20 for 30 mintues only.</p>
+                            <p>The styles I teach are:</p>
+                            <ul class="styles">
+                                <li>Jazz</li>
+                                <li>Blues</li>
+                                <li>Swing</li>
+                                <li>Soul</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- End of Teachings section -->
 
     <hr>
 
     <!-- Testimonials section - display of student feedback -->
 
-    <div class="container-fluid">
-        <section id="testimonials">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="testimonials-heading text-uppercase">Testimonials</h2>
-                </div>
+    <section id="testimonials" class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="testimonials-heading text-uppercase">Testimonials</h2>
             </div>
+        </div>
 
-            <div class="row g-3">
-                <div class="col-md-12 col-lg-4">
-                    <div class="card" style="width: 25rem;">
+        <div class="container container-fluid">
+            <div class="row g-5">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="card" style="width: auto;">
                         <img src="./assets/images/profile-images/Daniel-profile.jpg" class="card-img-top"
                             alt="Image of guitar student Daniel Davies">
                         <div class="card-body">
@@ -267,8 +265,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-4">
-                    <div class="card" style="width: 25rem;">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="card" style="width: auto;">
                         <img src="./assets/images/profile-images/Jess-profile.jpg" class="card-img-top"
                             alt="Image of Piano student Jessica Price">
                         <div class="card-body">
@@ -282,8 +280,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-4">
-                    <div class="card" style="width: 25rem;">
+                <div class="col-sm-12 d-md-none d-lg-block col-lg-4">
+                    <div class="card" style="width: auto;">
                         <img src="./assets/images/profile-images/Greg-profile.jpg" class="card-img-top"
                             alt="Image of drums student Greg Roach">
                         <div class="card-body">
@@ -300,88 +298,84 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
-
-    </div>
+        </div>
+    </section>
 
     <!-- End of Testimonials section -->
 
     <!-- Contact Me section - contact form for submission of learning requirements -->
 
-    <div class="container-fluid contact-form-container">
-        <section id="contact-form">
 
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="contact-form-heading text-uppercase">Contact Us</h2>
-                    <p class="callout lead">Contact me today, to see how I can help you achieve your musical goals!</p>
-                </div>
+    <section id="contact-form" class="container-fluid contact-form-container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="contact-form-heading text-uppercase">Contact Us</h2>
+                <p class="callout lead">Contact me today, to see how I can help you achieve your musical goals!</p>
+            </div>
+        </div>
+
+        <form>
+            <div class="mb-3">
+                <label for="first-name" class="form-label">First Name:</label>
+                <input type="text" class="form-control" id="first-name" aria-describedby="first-name" required>
+            </div>
+            <div class="mb-3">
+                <label for="last-name" class="form-label">Last Name:</label>
+                <input type="text" class="form-control" id="last-name" aria-describedby="last-name" required>
+            </div>
+            <div class="mb-3">
+                <label for="telephone" class="form-label">Tel No:</label>
+                <input type="number" class="form-control" id="telephone" aria-describedby="telephone" required>
+            </div>
+            <div class="mb-5">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" required>
             </div>
 
-            <form>
-                <div class="mb-3">
-                    <label for="fname" class="form-label">First Name:</label>
-                    <input type="text" class="form-control" id="fname" aria-describedby="first name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="lname" class="form-label">Last Name:</label>
-                    <input type="text" class="form-control" id="lname" aria-describedby="last name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="telephone" class="form-label">Tel No:</label>
-                    <input type="number" class="form-control" id="telephone" aria-describedby="contact number" required>
-                </div>
-                <div class="mb-5">
-                    <label for="email" class="form-label">Email:</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="email address" required>
-                </div>
+            <div class="instrument-checkbox-heading mb-3">
+                <h3>What Instrument Would You Like To Learn?</h3>
+            </div>
 
-                <div class="instrument-checkbox-heading mb-3">
-                    <h3>What Instrument Would You Like To Learn?</h3>
-                </div>
+            <div class="form-check form-check-inline mb-5">
+                <input class="form-check-input" type="radio" name="guitar" id="guitar" value="guitar" checked required>
+                <label class="form-check-label" for="guitar">Guitar</label>
+            </div>
+            <div class="form-check form-check-inline mb-5">
+                <input class="form-check-input" type="radio" name="drums" id="drums" value="drums" required>
+                <label class="form-check-label" for="drums">Drums</label>
+            </div>
+            <div class="form-check form-check-inline mb-5">
+                <input class="form-check-input" type="radio" name="piano" id="piano" value="piano" required>
+                <label class="form-check-label" for="piano">Piano</label>
+            </div>
+            <div class="form-check form-check-inline mb-5">
+                <input class="form-check-input" type="radio" name="saxophone" id="saxophone" value="saxophone" required>
+                <label class="form-check-label" for="saxophone">Saxophone</label>
+            </div>
 
-                <div class="form-check form-check-inline mb-5">
-                    <input class="form-check-input" type="radio" name="guitar" id="guitar" value="guitar" checked
-                        required>
-                    <label class="form-check-label" for="guitar">Guitar</label>
-                </div>
-                <div class="form-check form-check-inline mb-5">
-                    <input class="form-check-input" type="radio" name="drums" id="drums" value="drums" required>
-                    <label class="form-check-label" for="drums">Drums</label>
-                </div>
-                <div class="form-check form-check-inline mb-5">
-                    <input class="form-check-input" type="radio" name="piano" id="piano" value="piano" required>
-                    <label class="form-check-label" for="piano">Piano</label>
-                </div>
-                <div class="form-check form-check-inline mb-5">
-                    <input class="form-check-input" type="radio" name="saxophone" id="saxophone" value="saxophone"
-                        required>
-                    <label class="form-check-label" for="saxophone">Saxophone</label>
-                </div>
+            <div class="mb-5">
+                <label for="additional-details" class="form-label">Please provide any additional
+                    details:</label>
+                <textarea class="form-control" id="additional-details" rows="3"></textarea>
+            </div>
 
-                <div class="mb-5">
-                    <label for="additional-details" class="form-label">Please provide any additional
-                        details:</label>
-                    <textarea class="form-control" id="additional-details" rows="3"></textarea>
-                </div>
+            <div>
+                <button type="submit" class="btn btn-success btn-lg">Submit</button>
+            </div>
 
-                <div>
-                    <button type="submit" class="btn btn-success btn-lg">Submit</button>
-                </div>
+        </form>
 
-            </form>
+    </section>
 
-        </section>
-    </div>
     <!-- End of Contact Me section -->
 
     <!-- Footer section for social media content and copyright -->
 
     <footer class="text-center text-lg-start bg-light text-muted">
+
         <!-- Section: Social media -->
         <section class="footer-section d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            
+
             <!-- Left -->
             <div class="me-5 d-none d-lg-block">
                 <span>Connect with us on Social Media:</span>
@@ -408,17 +402,16 @@
         <!-- Section: Social media -->
 
         <!-- Section: Links  -->
-        <section class="">
-            <div class="container text-center text-md-start mt-5">
-                <div class="row mt-3">
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <h5 class="text-uppercase fw-bold mb-4">
-                            <i class="fas fa-gem me-3"></i>RCT School Of Music
-                        </h5>
-                    </div>
+        <section class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h5 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3"></i>RCT School Of Music
+                    </h5>
                 </div>
             </div>
         </section>
+
         <!-- Section: Links  -->
 
         <!-- Copyright -->
