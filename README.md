@@ -130,6 +130,14 @@ There are multiple updates that could be implemented in the future, that would a
 
 ## Testing
 
+### Validator testing
+
+- HTML
+    - All HTML Code was passed through the official W3C Validator, with th ereport returning no errors. [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandywales83.github.io%2FMS-Project-1%2F)
+
+- CSS
+    
+
 ## Deployment
 
 This project has been created using the Gitpod IDE. Through numerous occasions, the project development has been pushed to Git and Committed in full, to Github. This has been carried out using the built in fuction of Gitpod
@@ -147,8 +155,3 @@ For live viewing on Github Pages, the project was deployed using the following m
 
 ## Credits
 
-### Code Creation
-
-### Images
-
-### Written Content
