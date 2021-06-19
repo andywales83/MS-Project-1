@@ -53,7 +53,6 @@ body {
     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
     text-align: justify;
     margin: 0px auto 30px auto;
-
 }
 
 
@@ -172,6 +171,14 @@ body {
 }
 
 /* --------------- What I Teach Styling --------------- */
+.styles {
+    padding-left: 30px;
+}
+
+.style-types {
+    columns: 2;
+    padding-left: 40px;
+}
 
 .instrument-type {
     text-align: center;
