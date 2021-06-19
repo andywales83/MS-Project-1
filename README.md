@@ -59,6 +59,17 @@ Being a musician myself, I appreciate how dificult it often is as a beginner, to
 ### What I expect as a business 
 - As a business, I would expect to provide a user of the site, with clear information about the School. I would expect a user to be able to easily associate with the tutor of the site and with previous students. I would expect a user to be encouraged to make contact with the school, wherever possible and to be provided with a quick and convenient way to do so. I would also expect a user to be able to quickly navigate around the site.
 
+## Structure
+- The website will be built over seven different sections.
+    1. A Navigation bar for inclusion of the brand name and the site navigation links.
+    2. A Hero Image which will be the main point of the home screen. In the center of the Hero Image will be a text box with a large title and a button to encourage the user to make contact.
+    3. A section about me, that details background and experience, as well as a profile picture of myslef, to allow for user assocaiation.
+    4. A "What I Teach" section that will outline the instruments and musical styles that are taught, as well as the price rate for lessons.
+    5. A testimonials section where users can quickly find examples of student feedback.
+    6. A contact form allowing the user to make contact regarding any queries they may have, or any instruments that they would like to book in lessons for.
+    7. The footer. This will be for linking the social media pages for the business and providing copyright details.
+
+
 ## Features
 
 - ### Existing Features
