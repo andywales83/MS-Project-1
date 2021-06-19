@@ -48,7 +48,7 @@ Being a musician myself, I appreciate how dificult it often is as a beginner, to
     1. As a frequent user, I want to be able to see any new offers introduced on bookings.
     2. As a frequent user, I want to be able to see if there are any opportunities coming up, to learn a new instument or style.
     3. As a frequent user, I want to be able to book a lesson directly through the website using an incorporated calendar.
-    4. As a frequent user, I want to be able to register for  a newsletter that may provide information on upcoming offers, as well as updates to the site or to the business.
+    4. As a frequent user, I want to be able to register for a newsletter that may provide information on upcoming offers, as well as updates to the site or to the business.
 
 
 ## Features
@@ -96,6 +96,8 @@ Being a musician myself, I appreciate how dificult it often is as a beginner, to
 <!-- Space for the image of the Footer -->
 
 - Footer Section
+    - The footer section was created to be visually simplistic, yet allow sufficient space for additional content to be added in future updates. Content such as a signup link for a newsletter, or links to blog sections, giving additional benefit to returning users or first time visitors.
+    - The footer provides a user with the links needed to reach out and connect with the School via social media as well as the copyright information for the website
 
     ![Footer Image](Documentation/readme-images/website-footer.png)
 ### Features to implement in the future
@@ -126,16 +128,17 @@ There are multiple updates that could be implemented in the future, that would a
     - The project uses imported font families from the Google Font platform.
 
 - Balsamiq 
-    - the balsamiq platform was used to wireframe designs.
+    - The balsamiq platform was used for creation of the wireframe designs.
 
 ## Testing
 
 ### Validator testing
 
 - HTML
-    - All HTML Code was passed through the official W3C Validator, with th ereport returning no errors. [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandywales83.github.io%2FMS-Project-1%2F)
+    - All HTML Code was passed through the official W3C Validator, with th ereport returning no errors. [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandywales83.github.io%2FMS-Project-1%2F)
 
 - CSS
+    Whilst the website was created using the Bootstrap 5 library, testing of the CSS on the live site creates errors due to the unrecognised base styling for Bootstrap. Direct testing of the site's css file, via direct input, shows no errors being reported. [W3C CSS Validator](Documentation/readme-images/website-css-validation.png)
     
 
 ## Deployment
