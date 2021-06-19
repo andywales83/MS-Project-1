@@ -154,12 +154,13 @@ Being a musician myself, I appreciate how dificult it often is as a beginner, to
 There are multiple updates that could be implemented in the future, that would add additional user benefit and would fall in line, with the scope of the goals to increase the features for frequent users.
 
 - Implemented features could include:
-    - implementation of a direct to source calendar booking system such as calendly, where learners can directly access the calendar for teh tutor, and book in a slot for a lesson from a pre-set number of days and times.
-    - implementation of an alert bar, that gives users information on details such as new instruments that are being introduced to the offering. Offers that can be accessed, such as referral rates for friends and family, or reduced lesson prices through blocked bookings.
-    - implementation of a new section or page that allows the tutor to create an online blog, introducing snippets of lessons, musical techniques or ideas and concepts.
+    - Implementation of a direct to source calendar booking system such as calendly, where learners can directly access the calendar for teh tutor, and book in a slot for a lesson from a pre-set number of days and times.
+    - Implementation of an alert bar, that gives users information on details such as new instruments that are being introduced to the offering. Offers that can be accessed, such as referral rates for friends and family, or reduced lesson prices through blocked bookings.
+    - Implementation of a new section or page that allows the tutor to create an online blog, introducing snippets of lessons, musical techniques or ideas and concepts.
     - A frequently asked questions page, where the most common questions asked by students are answered, giving potential customer a greater depth of readily available information.    
-    - introduction of a monthly subscription where students can access a subscription only area with video and tutorials and downloadable content. 
+    - Introduction of a monthly subscription where students can access a subscription only area with video and tutorials and downloadable content. 
 
+---
 ## Technologies Used
 
 - This project uses the core programming languages of HTML5 and CSS3.
@@ -182,21 +183,32 @@ There are multiple updates that could be implemented in the future, that would a
 - Am I Responsive
     - Am I Responsive was used to creat the initial mock-up image at the top of the README showing the site on the different display types.
 
+---
 ## Testing
 
 ### Validator testing
 
-- HTML
+- **HTML**
     - All HTML Code was passed through the official W3C Validator, with th ereport returning no errors. [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandywales83.github.io%2FMS-Project-1%2F)
 
-- CSS
+- **CSS**
     - Whilst the website was created using the Bootstrap 5 library, testing of the CSS on the live site creates errors due to the unrecognised base styling for Bootstrap. Direct testing of the site's css file, via direct input, shows no errors being reported. [W3C CSS Validator](Documentation/readme-images/website-css-validation.png)
 
-- Lighthouse Testing
+- **Lighthouse Testing**
     - The site has been run through the Lighthouse test on Google Developer Tools and achieved the following results:
     
     ![Lighthouse Test Result](Documentation/readme-images/lighthouse-testing-result.png)
 
+### Bug Fixes
+
+- During the initial phases of responsiveness testing the following issues were noted, and fixed accordingly:
+    - The width of the Card elements that were used for the testimonials and instrument types, were give too large a width. Whilst it looked normal at larger screen widths, as the screen shrunk to the medium breakpoints, the cards started to overlap. They aligned vertically as expected at the smaller breakpoint. This was fixed by lowering the card widths to a size more managble at the medium breakpoint width.
+
+    - The width of the Testimonials heading was too wide on a mobile screen, pushing the rest of the content left and causing a margin of white space down the right hand side of teh screen. This wa fixed by reducing all of the section heading to a more managebale size for the lower screen widths.
+
+    - Upon testing the form for validation, it was noticed that the submitted data was not picking up the contact details or the textarea data. this was fixed by ensuring the name label was given to each of the input elements in the HTML code.
+
+---
 ## Deployment
 
 This project has been created using the Gitpod IDE. Through numerous occasions, the project development has been pushed to Git and Committed in full, to Github. This has been carried out using the built in fuction of Gitpod
@@ -224,6 +236,21 @@ To make a local clone of a Github Repository:
 - Type git clone, and then paste the URL that you copied earlier 
 - press enter to create your local clone
 
-
+---
 ## Credits
 
+### Genreal Credits
+- Brian Macharia - Mentor support, guidance on my idea and how to structure my time working on the project. Also for the review of layout, usability and functions.
+
+- The slack community - for answering questions and providing support wherever it has been needed.
+
+### Technological Credits
+- Bootstrap 5 - for use of their responsive functionality, the base form layout for the contact page and for the card features used on the testimonials and teachngs sections.
+- CSS Tricks - for use of the code for a full screen Hero Image.
+- W3Schools - for use in troubleshooting and the codes for the Hero Image text box and box shadows.
+- Google Fonts - for the referencing of the required font families.
+- Pixabay & Pexels - for the Hero Image, Instrument images and for the profile and testimonial photos.
+- Balsamiq - for the wireframig of the website during the initial idea concept stage.
+- Code Institute - Whiskey Drop project, for referncing the functionality of the bootstrap responsive breakpoints. Also for the referncing of their project README template.
+- MDBootstrap website - for the use of their base code for the footer. This was amended to suit the needs of the website.
+- W3C - for testing validity of HTML and CSS
