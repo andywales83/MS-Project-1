@@ -29,31 +29,39 @@ Being a musician myself, I appreciate how dificult it often is as a beginner, to
 
 ## UX Design
 
-- ### User Stories:
+## Strategy 
 
-    - #### First Time Visitor Goals
+### User Stories
+- #### First Time Visitor Goals
 
     1. As a first time visitor, I want to be able to quickly understand the purpose of the website.
     2. As a first time visitor, I want to be able to easily navigate the site, with access to the necessary content being clear and direct.
     3. As a first time visitor, I want to be able to read and review current or previous learner testimonials, to help aid my decision to sign-up.
 
-    - #### Returning Visitor Goals
+- #### Returning Visitor Goals
 
     1. As a returning visitor, I want to be able to email the company/tutor to enquire about booking a lesson and/or ask questions.
     2. As a returning visitor, I want to be able to fully understand what is being offered by the website, in terms of the musical instruments being taught, the levels, the styles, who the tutor os and the costs.
     3. As a returning visitor, I would want to find links to the company's social media platforms where I could review their following and any additional testimonials and feedback they have gained online.
 
-    - #### Frequent User Goals
+- #### Frequent User Goals
 
     1. As a frequent user, I want to be able to see any new offers introduced on bookings.
     2. As a frequent user, I want to be able to see if there are any opportunities coming up, to learn a new instument or style.
     3. As a frequent user, I want to be able to book a lesson directly through the website using an incorporated calendar.
     4. As a frequent user, I want to be able to register for a newsletter that may provide information on upcoming offers, as well as updates to the site or to the business.
 
+## Scope
+
+### What a user may expect
+- Based on the aformentioned user stories, the aim of building the website, is to give users an easy to navigate website, which is visually appealing and well presented across all possible display sizes. All sections of the site should be clearly labelled where required, and all links to each section should work appropriately. The site should provide a clear and distinguishable way, for users to see feedback, to connect with the business via social media and be able to easily reach out to the business with any questions.
+
+### What I expect as a business 
+- As a business, I would expect to provide a user of the site, with clear information about the School. I would expect a user to be able to easily associate with the tutor of the site and with previous students. I would expect a user to be encouraged to make contact with the school, wherever possible and to be provided with a quick and convenient way to do so. I would also expect a user to be able to quickly navigate around the site.
 
 ## Features
 
-### Existing Features
+- ### Existing Features
 
 - **Navigation Bar**
     - Featured at the top of the main home screen, the navigation bar has been coded to remain in place and does not move with the screen as the user scrolls. The navigation bar is fully responsive and structured to show the logo for the site, as well as links to the About Me, Teachings, Testimonials and Contact Form Sections.
