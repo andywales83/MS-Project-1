@@ -138,7 +138,7 @@ There are multiple updates that could be implemented in the future, that would a
     - All HTML Code was passed through the official W3C Validator, with th ereport returning no errors. [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandywales83.github.io%2FMS-Project-1%2F)
 
 - CSS
-    Whilst the website was created using the Bootstrap 5 library, testing of the CSS on the live site creates errors due to the unrecognised base styling for Bootstrap. Direct testing of the site's css file, via direct input, shows no errors being reported. [W3C CSS Validator](Documentation/readme-images/website-css-validation.png)
+    - Whilst the website was created using the Bootstrap 5 library, testing of the CSS on the live site creates errors due to the unrecognised base styling for Bootstrap. Direct testing of the site's css file, via direct input, shows no errors being reported. [W3C CSS Validator](Documentation/readme-images/website-css-validation.png)
     
 
 ## Deployment

@@ -1,3 +1,7 @@
+:root {
+    --content-max-width: 2500px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +11,8 @@
 body {
     font-family: 'Lato', sans-serif !important;
     color: #4d4d4d;
+    max-width: var(--content-max-width);
+    margin: 0 auto;
 }
 
 
