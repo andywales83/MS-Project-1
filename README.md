@@ -1,6 +1,6 @@
 # RCT School of Music
 
-[View the live project here](https://andywales83.github.io/MS-Project-1/)
+[View the live project here](https://andywales83.github.io/RCT-School-Of-Music/index.html)
 
 ![Am I Responsive Image](Documentation/readme-images/am-I-responsive.png)
 
